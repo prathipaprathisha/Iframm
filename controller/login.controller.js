@@ -5,6 +5,13 @@ const { Message } = require("../utils/messages");
 const Response = require("../utils/response");
 const bcrypt = require('bcrypt');
 
+
+
+
+
+
+
+
 async function checkPassword(password, hashedPassword) {
   try {
     const match = await bcrypt.compare(password, hashedPassword);
@@ -16,6 +23,54 @@ async function checkPassword(password, hashedPassword) {
   }
 }
 const loginController = {
+
+
+  async createUser(req,res){
+       
+    try{
+        let{
+          username,
+          password
+        }=req.body;
+        
+        if(username?.length > 0 && password?.length > 0){
+            let org_password = await bcrypt.hash(password,10);
+
+            let payLoad = {
+                username,
+                password,
+                org_password
+            }
+
+                let[userResponse] = await LoginModal.createUser(payLoad)
+                if(userResponse.affectedRows > 0){
+                    res.send({
+                        status: true,
+                        message: "User Created Successfully...!",
+                    })
+                }else{
+                    res.send({
+                        status: false,
+                        message: "something went to wrong...!",
+                    })
+                }
+        
+        }else{
+            res.send({
+                status:false,
+                message: "Please check mandatory fields !"
+            })
+        }
+    }
+    catch(err){
+        console.log("Error",err);
+    }
+},
+
+
+
+
+
   async getLogin(req, res) {
     console.log("am here");
     try {

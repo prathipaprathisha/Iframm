@@ -4,6 +4,12 @@ const mysql = require('mysql2/promise');
 
 const LoginModal ={
 
+async createUser(data){
+    let query = `insert into user_admin(username,password,org_password) values ('${data.username}','${data.org_password}','${data.password}' )`;
+    console.log("QUERY",query);
+    return database.promise().query(query)
+},
+
 //Get By Username
 
 async getByUserName(username) {

@@ -1,0 +1,1025 @@
+{
+  message: Error
+      at PromisePool.query (C:\node projects\iframe\node_modules\mysql2\promise.js:356:22)
+      at Object.getByUserName (C:\node projects\iframe\models\login.model.js:9:37)
+      at getLogin (C:\node projects\iframe\controller\login.controller.js:22:42)
+      at Layer.handle [as handle_request] (C:\node projects\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\node projects\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\node projects\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\node projects\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\node projects\iframe\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\node projects\iframe\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\node projects\iframe\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ECONNREFUSED',
+    errno: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-24T16:01:40.997Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: undefined,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-24T16:01:41.003Z'
+}
+{
+  message: Error
+      at PromisePool.query (C:\node projects\iframe\node_modules\mysql2\promise.js:356:22)
+      at Object.getByUserName (C:\node projects\iframe\models\login.model.js:9:37)
+      at getLogin (C:\node projects\iframe\controller\login.controller.js:23:42)
+      at Layer.handle [as handle_request] (C:\node projects\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\node projects\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\node projects\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\node projects\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\node projects\iframe\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\node projects\iframe\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\node projects\iframe\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ECONNREFUSED',
+    errno: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-24T16:02:18.893Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: undefined,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-24T16:02:18.901Z'
+}
+{
+  message: Error
+      at PromisePool.query (C:\node projects\iframe\node_modules\mysql2\promise.js:356:22)
+      at Object.getByUserName (C:\node projects\iframe\models\login.model.js:9:37)
+      at getLogin (C:\node projects\iframe\controller\login.controller.js:23:42)
+      at Layer.handle [as handle_request] (C:\node projects\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\node projects\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\node projects\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\node projects\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\node projects\iframe\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\node projects\iframe\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\node projects\iframe\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ECONNREFUSED',
+    errno: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-24T16:02:28.494Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: undefined,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-24T16:02:28.497Z'
+}
+{
+  message: Error
+      at PromisePool.query (C:\node projects\iframe\node_modules\mysql2\promise.js:356:22)
+      at Object.getByUserName (C:\node projects\iframe\models\login.model.js:9:37)
+      at getLogin (C:\node projects\iframe\controller\login.controller.js:27:36)
+      at Layer.handle [as handle_request] (C:\node projects\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\node projects\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\node projects\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\node projects\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\node projects\iframe\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\node projects\iframe\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\node projects\iframe\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ECONNREFUSED',
+    errno: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T12:42:24.730Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: undefined,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T12:42:24.745Z'
+}
+{
+  message: Error
+      at PromisePool.query (C:\node projects\iframe\node_modules\mysql2\promise.js:356:22)
+      at Object.getByUserName (C:\node projects\iframe\models\login.model.js:9:37)
+      at getLogin (C:\node projects\iframe\controller\login.controller.js:27:36)
+      at Layer.handle [as handle_request] (C:\node projects\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\node projects\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\node projects\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\node projects\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\node projects\iframe\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\node projects\iframe\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\node projects\iframe\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ECONNREFUSED',
+    errno: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T12:43:21.715Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: undefined,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T12:43:21.735Z'
+}
+{
+  message: 'No database selected',
+  code: 'ER_NO_DB_ERROR',
+  errno: 1046,
+  sql: 'select * from admin_users where username = testuser',
+  sqlState: '3D000',
+  sqlMessage: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T12:53:07.929Z'
+}
+{
+  message: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T12:53:07.955Z'
+}
+{
+  message: 'No database selected',
+  code: 'ER_NO_DB_ERROR',
+  errno: 1046,
+  sql: 'select * from admin_users where username = testuser',
+  sqlState: '3D000',
+  sqlMessage: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T12:53:28.601Z'
+}
+{
+  message: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T12:53:28.614Z'
+}
+{
+  message: 'No database selected',
+  code: 'ER_NO_DB_ERROR',
+  errno: 1046,
+  sql: 'select * from admin_users where username = testuser',
+  sqlState: '3D000',
+  sqlMessage: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T12:53:53.622Z'
+}
+{
+  message: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T12:53:53.634Z'
+}
+{
+  message: 'No database selected',
+  code: 'ER_NO_DB_ERROR',
+  errno: 1046,
+  sql: 'select * from user_admin where username = testuser',
+  sqlState: '3D000',
+  sqlMessage: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T13:32:56.279Z'
+}
+{
+  message: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T13:32:56.303Z'
+}
+{
+  message: 'No database selected',
+  code: 'ER_NO_DB_ERROR',
+  errno: 1046,
+  sql: 'select * from user_admin where username = testuser',
+  sqlState: '3D000',
+  sqlMessage: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T13:32:59.859Z'
+}
+{
+  message: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T13:32:59.874Z'
+}
+{
+  message: 'No database selected',
+  code: 'ER_NO_DB_ERROR',
+  errno: 1046,
+  sql: 'select * from user_admin where username = testuser',
+  sqlState: '3D000',
+  sqlMessage: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T13:33:23.093Z'
+}
+{
+  message: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T13:33:23.118Z'
+}
+{
+  message: 'No database selected',
+  code: 'ER_NO_DB_ERROR',
+  errno: 1046,
+  sql: 'select * from user_admin where username = testuser',
+  sqlState: '3D000',
+  sqlMessage: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T13:49:02.661Z'
+}
+{
+  message: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T13:49:02.686Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T14:07:25.500Z'
+}
+{
+  message: 'database.promise is not a function',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T14:07:25.510Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T14:07:44.970Z'
+}
+{
+  message: 'database.promise is not a function',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T14:07:44.982Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T14:07:51.069Z'
+}
+{
+  message: 'database.promise is not a function',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T14:07:51.074Z'
+}
+{
+  message: 'No database selected',
+  code: 'ER_NO_DB_ERROR',
+  errno: 1046,
+  sql: 'select * from user_admin where username = testuser',
+  sqlState: '3D000',
+  sqlMessage: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T14:09:21.705Z'
+}
+{
+  message: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T14:09:21.722Z'
+}
+{
+  message: 'No database selected',
+  code: 'ER_NO_DB_ERROR',
+  errno: 1046,
+  sql: 'select * from user_admin where username = testuser',
+  sqlState: '3D000',
+  sqlMessage: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T14:22:29.521Z'
+}
+{
+  message: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T14:22:29.534Z'
+}
+{
+  message: 'No database selected',
+  code: 'ER_NO_DB_ERROR',
+  errno: 1046,
+  sql: 'select * from user_admin where username = testuser',
+  sqlState: '3D000',
+  sqlMessage: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T14:23:21.312Z'
+}
+{
+  message: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-25T14:23:21.326Z'
+}
+{
+  message: Error
+      at PromisePool.query (C:\node projects\iframe\node_modules\mysql2\promise.js:356:22)
+      at Object.getByUserName (C:\node projects\iframe\models\login.model.js:9:37)
+      at getLogin (C:\node projects\iframe\controller\login.controller.js:27:36)
+      at Layer.handle [as handle_request] (C:\node projects\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\node projects\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\node projects\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\node projects\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\node projects\iframe\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\node projects\iframe\node_modules\express\lib\router\index.js:346:12)
+      at next (C:\node projects\iframe\node_modules\express\lib\router\index.js:280:10) {
+    code: 'ECONNREFUSED',
+    errno: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T04:11:35.908Z'
+}
+{
+  message: {
+    code: 'ECONNREFUSED',
+    errno: undefined,
+    fatal: undefined,
+    sql: undefined,
+    sqlState: undefined,
+    sqlMessage: undefined
+  },
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T04:11:35.918Z'
+}
+{
+  message: 'No database selected',
+  code: 'ER_NO_DB_ERROR',
+  errno: 1046,
+  sql: 'select * from user_admin where username = testuser',
+  sqlState: '3D000',
+  sqlMessage: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T04:14:02.132Z'
+}
+{
+  message: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T04:14:02.138Z'
+}
+{
+  message: 'No database selected',
+  code: 'ER_NO_DB_ERROR',
+  errno: 1046,
+  sql: 'select * from user_admin where username = testuser',
+  sqlState: '3D000',
+  sqlMessage: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T04:15:16.883Z'
+}
+{
+  message: 'No database selected',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T04:15:16.897Z'
+}
+{
+  message: "Unknown column 'testuser' in 'where clause'",
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sql: 'select * from user_admin where username = testuser',
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'testuser' in 'where clause'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T04:33:29.343Z'
+}
+{
+  message: "Unknown column 'testuser' in 'where clause'",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T04:33:29.355Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T07:19:15.382Z'
+}
+{
+  message: 'mysql is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T07:19:15.394Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T07:19:31.433Z'
+}
+{
+  message: 'mysql is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T07:19:31.444Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T07:20:27.039Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'length')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T07:20:27.050Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T07:53:58.507Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'length')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T07:53:58.517Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T08:41:19.377Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'length')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T08:41:19.386Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T08:41:47.896Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'length')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T08:41:47.905Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T09:08:39.515Z'
+}
+{
+  message: 'rows is not defined',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T09:08:39.526Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T09:22:02.668Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T09:22:02.683Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T09:22:25.415Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T09:22:25.430Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T09:28:57.939Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T09:28:57.953Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T09:51:23.482Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T09:51:23.494Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T09:51:43.311Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T09:51:43.328Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:01:37.478Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:01:37.480Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:04:57.456Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:04:57.466Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:05:53.716Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:05:53.732Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:51:50.310Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:51:50.312Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:52:50.405Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:52:50.419Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:53:59.954Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:53:59.968Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:54:41.870Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:54:41.884Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:55:09.835Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'password')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:55:09.851Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:55:40.572Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'password')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:55:40.582Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:56:42.520Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'password')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T10:56:42.532Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:00:06.287Z'
+}
+{
+  message: "Cannot access 'value' before initialization",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:00:06.315Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:04:01.592Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:04:01.601Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:04:31.526Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:04:31.546Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:05:12.454Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:05:12.464Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:06:51.353Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:06:51.366Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:07:22.313Z'
+}
+{
+  message: '(intermediate value) is not iterable',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:07:22.329Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:22:48.008Z'
+}
+{
+  message: "Cannot access 'user' before initialization",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:22:48.019Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:31:40.098Z'
+}
+{
+  message: 'data and hash arguments required',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:31:40.105Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:32:06.926Z'
+}
+{
+  message: 'data and hash arguments required',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:32:06.936Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:32:52.663Z'
+}
+{
+  message: 'data and hash arguments required',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:32:52.672Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:33:35.197Z'
+}
+{
+  message: 'data and hash arguments required',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:33:35.208Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:34:44.431Z'
+}
+{
+  message: 'data and hash arguments required',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:34:44.444Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:39:41.462Z'
+}
+{
+  message: 'data and hash arguments required',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:39:41.474Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:45:49.047Z'
+}
+{
+  message: 'data and hash arguments required',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T11:45:49.059Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T12:00:55.938Z'
+}
+{
+  message: 'data and hash arguments required',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T12:00:55.953Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T12:03:43.165Z'
+}
+{
+  message: 'data and hash arguments required',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T12:03:43.180Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:14:15.539Z'
+}
+{
+  message: "Cannot access 'user' before initialization",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:14:15.550Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:14:30.569Z'
+}
+{
+  message: 'data and hash arguments required',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:14:30.586Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:15:05.849Z'
+}
+{
+  message: 'data and hash arguments required',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:15:05.860Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:17:36.154Z'
+}
+{
+  message: "Cannot read properties of undefined (reading '0')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:17:36.167Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:17:58.547Z'
+}
+{
+  message: "Cannot read properties of undefined (reading '0')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:17:58.559Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:19:37.843Z'
+}
+{
+  message: '(intermediate value)._ErrorResponse is not a function',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:19:37.859Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:20:43.596Z'
+}
+{
+  message: '(intermediate value)._ErrorResponse is not a function',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:20:43.607Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:21:28.388Z'
+}
+{
+  message: '(intermediate value)._ErrorResponse is not a function',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:21:28.402Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:21:48.768Z'
+}
+{
+  message: '(intermediate value)._ErrorResponse is not a function',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:21:48.780Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:29:51.813Z'
+}
+{
+  message: '(intermediate value)._ErrorResponse is not a function',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:29:51.824Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:37:17.359Z'
+}
+{
+  message: '(intermediate value)._ErrorResponse is not a function',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:37:17.373Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:37:41.902Z'
+}
+{
+  message: '(intermediate value)._ErrorResponse is not a function',
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:37:41.918Z'
+}
+{
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:43:56.563Z'
+}
+{
+  message: "Cannot access 'isMatch' before initialization",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-07-26T13:43:56.576Z'
+}

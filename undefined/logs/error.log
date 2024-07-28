@@ -11380,3 +11380,1046 @@
   label: undefined,
   timestamp: '2024-07-27T17:42:52.007Z'
 }
+{
+  error: Error: \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node is not a valid Win32 application.
+  \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node
+      at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\node projects\iframe\node_modules\bcrypt\bcrypt.js:6:16)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12) {
+    code: 'ERR_DLOPEN_FAILED'
+  },
+  level: 'error',
+  message: 'uncaughtException: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  stack: 'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  exception: true,
+  date: 'Sat Jul 27 2024 23:53:42 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8080,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\node projects\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\node projects\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55242752,
+      heapTotal: 21495808,
+      heapUsed: 14771008,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1153114.796 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..node',
+      line: 1464,
+      method: '.node',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-27T18:23:42.311Z'
+}
+{
+  error: Error: \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node is not a valid Win32 application.
+  \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node
+      at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\node projects\iframe\node_modules\bcrypt\bcrypt.js:6:16)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12) {
+    code: 'ERR_DLOPEN_FAILED'
+  },
+  level: 'error',
+  message: 'uncaughtException: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  stack: 'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  exception: true,
+  date: 'Sat Jul 27 2024 23:54:21 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13576,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\node projects\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\node projects\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 53280768,
+      heapTotal: 20971520,
+      heapUsed: 14730080,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1153154.171 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..node',
+      line: 1464,
+      method: '.node',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-27T18:24:21.692Z'
+}
+{
+  error: Error: \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node is not a valid Win32 application.
+  \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node
+      at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\node projects\iframe\node_modules\bcrypt\bcrypt.js:6:16)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12) {
+    code: 'ERR_DLOPEN_FAILED'
+  },
+  level: 'error',
+  message: 'uncaughtException: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  stack: 'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  exception: true,
+  date: 'Sun Jul 28 2024 11:17:28 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 5400,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\node projects\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\node projects\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 50835456,
+      heapTotal: 21495808,
+      heapUsed: 14918960,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1194141.39 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..node',
+      line: 1464,
+      method: '.node',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-28T05:47:28.912Z'
+}
+{
+  error: Error: \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node is not a valid Win32 application.
+  \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node
+      at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\node projects\iframe\node_modules\bcrypt\bcrypt.js:6:16)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12) {
+    code: 'ERR_DLOPEN_FAILED'
+  },
+  level: 'error',
+  message: 'uncaughtException: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  stack: 'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  exception: true,
+  date: 'Sun Jul 28 2024 11:17:45 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 18704,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\node projects\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\node projects\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 50970624,
+      heapTotal: 21495808,
+      heapUsed: 14943224,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1194158.125 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..node',
+      line: 1464,
+      method: '.node',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-28T05:47:45.634Z'
+}
+{
+  error: Error: \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node is not a valid Win32 application.
+  \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node
+      at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\node projects\iframe\node_modules\bcrypt\bcrypt.js:6:16)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12) {
+    code: 'ERR_DLOPEN_FAILED'
+  },
+  level: 'error',
+  message: 'uncaughtException: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  stack: 'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  exception: true,
+  date: 'Sun Jul 28 2024 11:21:24 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 12752,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\node projects\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\node projects\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 53506048,
+      heapTotal: 21233664,
+      heapUsed: 14673320,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1194376.765 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..node',
+      line: 1464,
+      method: '.node',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-28T05:51:24.282Z'
+}
+{
+  error: Error: \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node is not a valid Win32 application.
+  \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node
+      at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\node projects\iframe\node_modules\bcrypt\bcrypt.js:6:16)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12) {
+    code: 'ERR_DLOPEN_FAILED'
+  },
+  level: 'error',
+  message: 'uncaughtException: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  stack: 'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  exception: true,
+  date: 'Sun Jul 28 2024 11:21:24 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7548,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\node projects\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\node projects\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 53211136,
+      heapTotal: 21495808,
+      heapUsed: 14854824,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1194376.796 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..node',
+      line: 1464,
+      method: '.node',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-28T05:51:24.314Z'
+}
+{
+  error: Error: \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node is not a valid Win32 application.
+  \\?\C:\node projects\iframe\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node
+      at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\node projects\iframe\node_modules\bcrypt\bcrypt.js:6:16)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12) {
+    code: 'ERR_DLOPEN_FAILED'
+  },
+  level: 'error',
+  message: 'uncaughtException: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  stack: 'Error: \\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node is not a valid Win32 application.\r\n' +
+    '\\\\?\\C:\\node projects\\iframe\\node_modules\\bcrypt\\lib\\binding\\napi-v3\\bcrypt_lib.node\n' +
+    '    at Module._extensions..node (node:internal/modules/cjs/loader:1464:18)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js:6:16)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)',
+  exception: true,
+  date: 'Sun Jul 28 2024 11:21:30 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11844,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\node projects\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\node projects\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 51036160,
+      heapTotal: 20971520,
+      heapUsed: 14761608,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1194382.75 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..node',
+      line: 1464,
+      method: '.node',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\node projects\\iframe\\node_modules\\bcrypt\\bcrypt.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-28T05:51:30.264Z'
+}

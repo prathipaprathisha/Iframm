@@ -13,7 +13,7 @@ async createUser(data){
 //Get By Username
 
 async getByUserName(username) {
-    const query = 'SELECT username, password FROM user_admin WHERE username = ?';
+    const query = 'SELECT * FROM user_admin WHERE username = ?';
 
     try {
         const [rows] = await database.promise().query(query, [username]);

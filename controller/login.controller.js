@@ -104,10 +104,11 @@ const loginController = {
       }
 
       console.log('Password matches');
+      delete user.password;
 
       // Successful login
       return new Response(res, StatusCodes.OK)._SuccessResponse(
-        "Login successful"
+        "Login successful",user
       );
     } catch (err) {
       console.log("Error during login:", err);

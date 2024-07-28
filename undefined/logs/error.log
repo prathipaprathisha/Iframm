@@ -12423,3 +12423,174 @@
   label: undefined,
   timestamp: '2024-07-28T05:51:30.264Z'
 }
+{
+  error: Error: Cannot find module 'jsonwebtoken'
+  Require stack:
+  - C:\node projects\iframe\controller\login.controller.js
+  - C:\node projects\iframe\routes\user.routes.js
+  - C:\node projects\iframe\routes\index.routes.js
+  - C:\node projects\iframe\app.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+      at Module._load (node:internal/modules/cjs/loader:983:27)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\node projects\iframe\controller\login.controller.js:7:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\node projects\\iframe\\controller\\login.controller.js',
+      'C:\\node projects\\iframe\\routes\\user.routes.js',
+      'C:\\node projects\\iframe\\routes\\index.routes.js',
+      'C:\\node projects\\iframe\\app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'jsonwebtoken'\n" +
+    'Require stack:\n' +
+    '- C:\\node projects\\iframe\\controller\\login.controller.js\n' +
+    '- C:\\node projects\\iframe\\routes\\user.routes.js\n' +
+    '- C:\\node projects\\iframe\\routes\\index.routes.js\n' +
+    '- C:\\node projects\\iframe\\app.js\n' +
+    "Error: Cannot find module 'jsonwebtoken'\n" +
+    'Require stack:\n' +
+    '- C:\\node projects\\iframe\\controller\\login.controller.js\n' +
+    '- C:\\node projects\\iframe\\routes\\user.routes.js\n' +
+    '- C:\\node projects\\iframe\\routes\\index.routes.js\n' +
+    '- C:\\node projects\\iframe\\app.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:983:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\controller\\login.controller.js:7:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)',
+  stack: "Error: Cannot find module 'jsonwebtoken'\n" +
+    'Require stack:\n' +
+    '- C:\\node projects\\iframe\\controller\\login.controller.js\n' +
+    '- C:\\node projects\\iframe\\routes\\user.routes.js\n' +
+    '- C:\\node projects\\iframe\\routes\\index.routes.js\n' +
+    '- C:\\node projects\\iframe\\app.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:983:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\controller\\login.controller.js:7:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)',
+  exception: true,
+  date: 'Sun Jul 28 2024 13:26:58 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2128,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\node projects\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\node projects\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 53780480,
+      heapTotal: 21495808,
+      heapUsed: 14960096,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1201911.453 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1142,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 983,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\node projects\\iframe\\controller\\login.controller.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-28T07:56:58.970Z'
+}

@@ -4,6 +4,7 @@ const SpErrorHandler = require("../utils/error-handler");
 const { Message } = require("../utils/messages");
 const Response = require("../utils/response");
 const bcrypt = require('bcrypt');
+const jwt = require("jsonwebtoken"); 
 
 
 
@@ -98,6 +99,7 @@ const loginController = {
 
       if (!isMatch) {
         console.log('Password does not match');
+        
         return new Response(res, StatusCodes.UNAUTHORIZED)._ErrorMessage(
           "Invalid username or password"
         );
@@ -107,8 +109,11 @@ const loginController = {
       delete user.password;
 
       // Successful login
-      return new Response(res, StatusCodes.OK)._SuccessResponse(
-        "Login successful",user
+      const token = jwt.sign({ username },  
+        process.env.JWT_SECRET_KEY, { 
+            expiresIn: 86400 
+        });
+      return new Response(res, StatusCodes.OK)._LoginResponse(user,token
       );
     } catch (err) {
       console.log("Error during login:", err);

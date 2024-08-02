@@ -12594,3 +12594,4967 @@
   label: undefined,
   timestamp: '2024-07-28T07:56:58.970Z'
 }
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+      at listenInCluster (node:net:1945:12)
+      at Server.listen (node:net:2037:7)
+      at Function.listen (C:\node projects\iframe\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\node projects\iframe\app.js:59:5)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\node projects\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\app.js:59:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\node projects\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\node projects\\iframe\\app.js:59:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  exception: true,
+  date: 'Sun Jul 28 2024 13:41:13 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13880,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\node projects\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\node projects\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 54992896,
+      heapTotal: 21233664,
+      heapUsed: 16383592,
+      external: 2400376,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1202765.843 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1897,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1945,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2037,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\node projects\\iframe\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\node projects\\iframe\\app.js',
+      function: null,
+      line: 59,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 142,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-28T08:11:13.355Z'
+}
+{
+  error: Error: Cannot find module './booking.routes'
+  Require stack:
+  - C:\xampp\htdocs\iframe\routes\index.routes.js
+  - C:\xampp\htdocs\iframe\app.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+      at Module._load (node:internal/modules/cjs/loader:983:27)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module './booking.routes'\n" +
+    'Require stack:\n' +
+    '- C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js\n' +
+    '- C:\\xampp\\htdocs\\iframe\\app.js\n' +
+    "Error: Cannot find module './booking.routes'\n" +
+    'Require stack:\n' +
+    '- C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js\n' +
+    '- C:\\xampp\\htdocs\\iframe\\app.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:983:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)',
+  stack: "Error: Cannot find module './booking.routes'\n" +
+    'Require stack:\n' +
+    '- C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js\n' +
+    '- C:\\xampp\\htdocs\\iframe\\app.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:983:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)',
+  exception: true,
+  date: 'Tue Jul 30 2024 21:08:21 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 22412,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 57593856,
+      heapTotal: 31195136,
+      heapUsed: 14055632,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1402394.343 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1142,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 983,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-30T15:38:21.857Z'
+}
+{
+  error: Error: Cannot find module './booking.routes'
+  Require stack:
+  - C:\xampp\htdocs\iframe\routes\index.routes.js
+  - C:\xampp\htdocs\iframe\app.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)
+      at Module._load (node:internal/modules/cjs/loader:983:27)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module './booking.routes'\n" +
+    'Require stack:\n' +
+    '- C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js\n' +
+    '- C:\\xampp\\htdocs\\iframe\\app.js\n' +
+    "Error: Cannot find module './booking.routes'\n" +
+    'Require stack:\n' +
+    '- C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js\n' +
+    '- C:\\xampp\\htdocs\\iframe\\app.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:983:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)',
+  stack: "Error: Cannot find module './booking.routes'\n" +
+    'Require stack:\n' +
+    '- C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js\n' +
+    '- C:\\xampp\\htdocs\\iframe\\app.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1142:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:983:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)',
+  exception: true,
+  date: 'Tue Jul 30 2024 21:08:29 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2224,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 57241600,
+      heapTotal: 30670848,
+      heapUsed: 14026576,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1402402.484 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1142,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 983,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-30T15:38:29.993Z'
+}
+{
+  error: C:\xampp\htdocs\iframe\routes\booking.routes.js:12
+  const express = require('express');
+        ^
+  
+  SyntaxError: Identifier 'express' has already been declared
+      at internalCompileFunction (node:internal/vm:128:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1279:20)
+      at Module._compile (node:internal/modules/cjs/loader:1331:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'express' has already been declared\n" +
+    'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:12\n' +
+    "const express = require('express');\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'express' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:128:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1279:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1331:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)',
+  stack: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:12\n' +
+    "const express = require('express');\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'express' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:128:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1279:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1331:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)',
+  exception: true,
+  date: 'Wed Jul 31 2024 09:55:22 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11240,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55160832,
+      heapTotal: 30932992,
+      heapUsed: 14012464,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1448414.703 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 128,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1279,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1331,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-31T04:25:22.212Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+      at listenInCluster (node:net:1945:12)
+      at Server.listen (node:net:2037:7)
+      at Function.listen (C:\xampp\htdocs\iframe\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\app.js:36:5)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:36:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:36:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  exception: true,
+  date: 'Wed Jul 31 2024 21:36:42 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 19556,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 63270912,
+      heapTotal: 30932992,
+      heapUsed: 14979504,
+      external: 2400376,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1490493.718 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1897,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1945,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2037,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\app.js',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 142,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-31T16:06:42.360Z'
+}
+{
+  error: ReferenceError: express is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\controller\login.controller.js:11:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\user.routes.js:5:25)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js:11:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js:11:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Wed Jul 31 2024 21:40:25 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9536,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55128064,
+      heapTotal: 30932992,
+      heapUsed: 14522408,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1490716.531 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-31T16:10:25.172Z'
+}
+{
+  error: ReferenceError: express is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\controller\login.controller.js:11:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\user.routes.js:5:25)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js:11:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js:11:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Wed Jul 31 2024 21:40:43 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 25940,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 54886400,
+      heapTotal: 30670848,
+      heapUsed: 14441088,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1490734.906 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-31T16:10:43.539Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+      at listenInCluster (node:net:1945:12)
+      at Server.listen (node:net:2037:7)
+      at Function.listen (C:\xampp\htdocs\iframe\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\app.js:36:5)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:36:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:36:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  exception: true,
+  date: 'Wed Jul 31 2024 21:58:52 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 22864,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 57479168,
+      heapTotal: 30670848,
+      heapUsed: 15158056,
+      external: 2400376,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1491824.312 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1897,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1945,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2037,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\app.js',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 142,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-07-31T16:28:52.957Z'
+}
+{
+  error: ReferenceError: app is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:5:1)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: app is not defined\n' +
+    'ReferenceError: app is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:5:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: app is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:5:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 07:52:52 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 14060,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55840768,
+      heapTotal: 30932992,
+      heapUsed: 14701888,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1527464.171 },
+  trace: [
+    {
+      column: 1,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T02:22:52.817Z'
+}
+{
+  error: ReferenceError: app is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:5:1)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: app is not defined\n' +
+    'ReferenceError: app is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:5:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: app is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:5:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 07:53:52 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13204,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55906304,
+      heapTotal: 31195136,
+      heapUsed: 14909800,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1527523.671 },
+  trace: [
+    {
+      column: 1,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T02:23:52.311Z'
+}
+{
+  error: ReferenceError: express is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:4:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:4:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:4:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 07:54:28 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 1436,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55877632,
+      heapTotal: 30932992,
+      heapUsed: 15000272,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1527559.671 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T02:24:28.306Z'
+}
+{
+  error: ReferenceError: express is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:4:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:4:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:4:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 07:54:53 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 22004,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55672832,
+      heapTotal: 30670848,
+      heapUsed: 14724864,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1527585.265 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T02:24:53.906Z'
+}
+{
+  error: ReferenceError: express is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\controller\booking.controller.js:5:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:5:27)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:5:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:5:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:5:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:5:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 09:06:48 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13468,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55521280,
+      heapTotal: 30932992,
+      heapUsed: 14969416,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1531899.671 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T03:36:48.312Z'
+}
+{
+  error: ReferenceError: express is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\controller\booking.controller.js:5:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:5:27)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:5:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:5:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:5:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:5:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 09:06:52 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 26100,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 56045568,
+      heapTotal: 30932992,
+      heapUsed: 14828008,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1531903.671 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T03:36:52.294Z'
+}
+{
+  error: ReferenceError: express is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\controller\booking.controller.js:5:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:5:27)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: express is not defined\n' +
+    'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:5:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:5:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: express is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:5:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:5:27)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 09:07:15 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10212,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55693312,
+      heapTotal: 30932992,
+      heapUsed: 14971784,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1531926.609 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T03:37:15.244Z'
+}
+{
+  error: TypeError: express.createServer is not a function
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\controller\login.controller.js:11:19)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\user.routes.js:5:25)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: express.createServer is not a function\n' +
+    'TypeError: express.createServer is not a function\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js:11:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'TypeError: express.createServer is not a function\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js:11:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 09:19:09 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16180,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55615488,
+      heapTotal: 30932992,
+      heapUsed: 14453376,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1532641.218 },
+  trace: [
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T03:49:09.852Z'
+}
+{
+  error: TypeError: express.createServer is not a function
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\controller\login.controller.js:11:19)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\user.routes.js:5:25)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: express.createServer is not a function\n' +
+    'TypeError: express.createServer is not a function\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js:11:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'TypeError: express.createServer is not a function\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js:11:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 09:20:06 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11816,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 54956032,
+      heapTotal: 30932992,
+      heapUsed: 14397448,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1532697.875 },
+  trace: [
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T03:50:06.497Z'
+}
+{
+  error: TypeError: express.createServer is not a function
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\controller\login.controller.js:11:19)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\user.routes.js:5:25)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: express.createServer is not a function\n' +
+    'TypeError: express.createServer is not a function\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js:11:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'TypeError: express.createServer is not a function\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js:11:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 09:20:31 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10192,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55308288,
+      heapTotal: 30932992,
+      heapUsed: 14491864,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1532722.875 },
+  trace: [
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T03:50:31.515Z'
+}
+{
+  error: TypeError: express.createServer is not a function
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\controller\login.controller.js:11:19)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\user.routes.js:5:25)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: express.createServer is not a function\n' +
+    'TypeError: express.createServer is not a function\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js:11:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'TypeError: express.createServer is not a function\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js:11:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js:5:25)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 09:20:50 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 24812,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55152640,
+      heapTotal: 30932992,
+      heapUsed: 14366744,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1532741.812 },
+  trace: [
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\login.controller.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\user.routes.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T03:50:50.450Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+      at listenInCluster (node:net:1945:12)
+      at Server.listen (node:net:2037:7)
+      at Function.listen (C:\xampp\htdocs\iframe\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\app.js:36:5)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:36:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:36:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  exception: true,
+  date: 'Thu Aug 01 2024 09:22:20 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 20432,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 56786944,
+      heapTotal: 30932992,
+      heapUsed: 15055576,
+      external: 2400376,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1532831.921 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1897,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1945,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2037,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\app.js',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 142,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T03:52:20.563Z'
+}
+{
+  error: ReferenceError: req is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:9:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 09:59:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 5508,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55349248,
+      heapTotal: 31195136,
+      heapUsed: 14763368,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1535043.781 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T04:29:12.414Z'
+}
+{
+  error: ReferenceError: req is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:9:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 09:59:52 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 14228,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55582720,
+      heapTotal: 30932992,
+      heapUsed: 14615432,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1535083.765 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T04:29:52.405Z'
+}
+{
+  error: ReferenceError: req is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:9:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 09:59:53 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9396,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55595008,
+      heapTotal: 30932992,
+      heapUsed: 14614736,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1535084.812 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T04:29:53.442Z'
+}
+{
+  error: ReferenceError: req is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:9:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 15:13:27 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9492,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 54747136,
+      heapTotal: 30932992,
+      heapUsed: 14640872,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1553899.093 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T09:43:27.739Z'
+}
+{
+  error: ReferenceError: req is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:9:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 15:14:56 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15520,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55554048,
+      heapTotal: 30932992,
+      heapUsed: 14774640,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1553987.64 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T09:44:56.284Z'
+}
+{
+  error: ReferenceError: req is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:9:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 15:15:03 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8416,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55156736,
+      heapTotal: 30670848,
+      heapUsed: 14748576,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1553994.531 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T09:45:03.176Z'
+}
+{
+  error: ReferenceError: req is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:9:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 15:32:20 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 3088,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 53059584,
+      heapTotal: 30670848,
+      heapUsed: 14470616,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1555032.187 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T10:02:20.823Z'
+}
+{
+  error: ReferenceError: req is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:9:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 15:32:39 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10856,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55033856,
+      heapTotal: 30670848,
+      heapUsed: 14677904,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1555051.234 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T10:02:39.872Z'
+}
+{
+  error: ReferenceError: req is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:9:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 15:32:54 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 14888,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55259136,
+      heapTotal: 30670848,
+      heapUsed: 14659600,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1555065.796 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T10:02:54.439Z'
+}
+{
+  error: ReferenceError: req is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:9:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 16:11:23 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 20164,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55181312,
+      heapTotal: 31195136,
+      heapUsed: 14924744,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1557374.578 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T10:41:23.217Z'
+}
+{
+  error: ReferenceError: req is not defined
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:9:13)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:6:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:9:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:6:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)',
+  exception: true,
+  date: 'Thu Aug 01 2024 16:11:37 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 21416,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 54779904,
+      heapTotal: 30670848,
+      heapUsed: 14750112,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1557388.546 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 6,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T10:41:37.192Z'
+}
+{
+  error: C:\xampp\htdocs\iframe\routes\booking.routes.js:4
+  const express = require('express');
+        ^
+  
+  SyntaxError: Identifier 'express' has already been declared
+      at internalCompileFunction (node:internal/vm:128:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1279:20)
+      at Module._compile (node:internal/modules/cjs/loader:1331:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'express' has already been declared\n" +
+    'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:4\n' +
+    "const express = require('express');\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'express' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:128:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1279:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1331:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)',
+  stack: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:4\n' +
+    "const express = require('express');\n" +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'express' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:128:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1279:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1331:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)',
+  exception: true,
+  date: 'Thu Aug 01 2024 18:25:05 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 24324,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55263232,
+      heapTotal: 30932992,
+      heapUsed: 14525992,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1565396.484 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 128,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1279,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1331,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T12:55:05.117Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+      at listenInCluster (node:net:1945:12)
+      at Server.listen (node:net:2037:7)
+      at Function.listen (C:\xampp\htdocs\iframe\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\app.js:36:5)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:36:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:36:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  exception: true,
+  date: 'Thu Aug 01 2024 18:25:39 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8520,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 56320000,
+      heapTotal: 31195136,
+      heapUsed: 15138496,
+      external: 2400376,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1565430.484 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1897,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1945,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2037,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\app.js',
+      function: null,
+      line: 36,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 142,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T12:55:39.123Z'
+}
+{
+  error: C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:12
+  console.log( req.,"token")
+                   ^
+  
+  SyntaxError: Unexpected token ','
+      at internalCompileFunction (node:internal/vm:128:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1279:20)
+      at Module._compile (node:internal/modules/cjs/loader:1331:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:9:31)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ','\n" +
+    'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:12\n' +
+    'console.log( req.,"token")\n' +
+    '                 ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ','\n" +
+    '    at internalCompileFunction (node:internal/vm:128:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1279:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1331:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:9:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)',
+  stack: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:12\n' +
+    'console.log( req.,"token")\n' +
+    '                 ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ','\n" +
+    '    at internalCompileFunction (node:internal/vm:128:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1279:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1331:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:9:31)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)',
+  exception: true,
+  date: 'Thu Aug 01 2024 20:34:29 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8748,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 56086528,
+      heapTotal: 30670848,
+      heapUsed: 14470120,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1573161.296 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 128,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1279,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1331,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 31,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-01T15:04:29.936Z'
+}

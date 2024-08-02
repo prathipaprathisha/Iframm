@@ -9,7 +9,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 app.use(cors());
 app.use('/iframe', indexRouter);
-const jwt = require("jsonwebtoken"); 
+require('dotenv').config();
 
 // app.use(function (req, res, next) {
 //     next(createError(404));
@@ -32,29 +32,7 @@ accessing the protected endpoints
 We can use this middleware to any endpoints 
 that we desire to make as protected*/
 
-const verifyTokenMiddleware = (req, res, next) => { 
-	const { token } = req.body; 
-	if (!token) return res.status(403).json({ 
-		msg: "No token present"
-	}); 
-	try { 
-		const decoded = jwt.verify(token, 
-			process.env.JWT_SECRET_KEY); 
-		req.user = decoded; 
-	} catch (err) { 
-		return res.status(401).json({ 
-			msg: "Invalid Token"
-		}); 
-	} 
-	next(); 
-}; 
 
-// Modify the home endpoint as below 
-// to use the verifyTokenMiddleware 
-app.get("/home", verifyTokenMiddleware, (req, res) => { 
-	const { user } = req; 
-	res.json({ msg: `Welcome ${user.username}` }); 
-});
 
 app.listen(5000,()=>{
     console.log("Port Run Localhost:5000");

@@ -6,13 +6,6 @@ const Response = require("../utils/response");
 const bcrypt = require('bcrypt');
 const jwt = require("jsonwebtoken"); 
 
-
-
-
-
-
-
-
 async function checkPassword(password, hashedPassword) {
   try {
     const match = await bcrypt.compare(password, hashedPassword);
@@ -72,55 +65,52 @@ const loginController = {
 
 
 
-  async getLogin(req, res) {
-    console.log("am here");
-    try {
-      const { username, password } = req.body;
+async getLogin(req, res) {
+  console.log("am here");
+  try {
+    const { username, password } = req.body;
 
-      if (!username || !password) {
-        return new Response(res, StatusCodes.BAD_REQUEST)._ErrorMessage(
-          "Username and password are required"
-        );
-      }
-
-      const user = await LoginModal.getByUserName(username);
-
-      if (!user) {
-        return new Response(res, StatusCodes.UNAUTHORIZED)._ErrorMessage(
-          "Invalid username or password"
-        );
-      }
-
-      console.log('User found:', user);
-      console.log('Password to compare:', password);
-      console.log('Hashed password from DB:', user.password);
-
-      const isMatch = await checkPassword(password, user.password);
-
-      if (!isMatch) {
-        console.log('Password does not match');
-        
-        return new Response(res, StatusCodes.UNAUTHORIZED)._ErrorMessage(
-          "Invalid username or password"
-        );
-      }
-
-      console.log('Password matches');
-      delete user.password;
-
-      // Successful login
-      const token = jwt.sign({ username },  
-        process.env.JWT_SECRET_KEY, { 
-            expiresIn: 86400 
-        });
-      return new Response(res, StatusCodes.OK)._LoginResponse(user,token
-      );
-    } catch (err) {
-      console.log("Error during login:", err);
-      return new Response(res, StatusCodes.INTERNAL_SERVER_ERROR)._ErrorMessage(
-        "Internal server error"
+    if (!username || !password) {
+      return new Response(res, StatusCodes.BAD_REQUEST)._ErrorMessage(
+        "Username and password are required"
       );
     }
-  },
+
+    const user = await LoginModal.getByUserName(username);
+    if (!user) {
+      return new Response(res, StatusCodes.UNAUTHORIZED)._ErrorMessage(
+        "Invalid username or password"
+      );
+    }
+
+    const isMatch = await checkPassword(password, user.password);
+    if (!isMatch) {
+      console.log('Password does not match');
+      return new Response(res, StatusCodes.UNAUTHORIZED)._ErrorMessage(
+        "Invalid username or password"
+      );
+    }
+
+    delete user.password;
+
+    // Successful login
+    const jwtToken = jwt.sign(
+      { username },  
+      process.env.JWT_SECRET_KEY, 
+      { expiresIn: '2h' }
+    );
+console.log(process.env.JWT_SECRET_KEY,"process.env.JWT_SECRET_KEY")
+console.log(jwtToken,"jwtToken")
+    // Store the token in session
+    res.set('Set-Cookie', `session=${jwtToken}; HttpOnly; Max-Age=${2 * 60 * 60}; Path=/;`);
+
+    return new Response(res, StatusCodes.OK)._LoginResponse(user, jwtToken);
+  } catch (err) {
+    console.log("Error during login:", err);
+    return new Response(res, StatusCodes.INTERNAL_SERVER_ERROR)._ErrorMessage(
+      "Internal server error"
+    );
+  }
+},
 };
 module.exports = loginController;

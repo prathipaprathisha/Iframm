@@ -1023,3 +1023,237 @@
   label: undefined,
   timestamp: '2024-07-26T13:43:56.576Z'
 }
+{
+  message: "PREPARING INSERT INTO booking (booking_no,booking_date,booking_category,booking_sub_category,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds',NULL,NULL,NULL,NULL,NULL,'7010358965','prathipa@gmail.com',NULL,NULL)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:43:54.242Z'
+}
+{
+  message: "PREPARING INSERT INTO booking (booking_no,booking_date,booking_category,booking_sub_category,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds',NULL,NULL,NULL,NULL,NULL,'7010358965','prathipa@gmail.com',NULL,NULL)",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:43:54.249Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:43:54.289Z'
+}
+{
+  message: "PREPARING INSERT INTO booking (booking_no,booking_date,booking_category,booking_sub_category,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','2024/02/02','1','2','testtt address','text','7010358965','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:47:45.699Z'
+}
+{
+  message: "PREPARING INSERT INTO booking (booking_no,booking_date,booking_category,booking_sub_category,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','2024/02/02','1','2','testtt address','text','7010358965','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:47:45.706Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:47:45.753Z'
+}
+{
+  message: "PREPARING INSERT INTO booking (booking_no,booking_date,booking_category,booking_sub_category,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','2024/02/02','1','2','testtt address','text','7010358965','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:48:12.748Z'
+}
+{
+  message: "PREPARING INSERT INTO booking (booking_no,booking_date,booking_category,booking_sub_category,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','2024/02/02','1','2','testtt address','text','7010358965','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:48:12.753Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:48:12.798Z'
+}
+{
+  message: "PREPARING INSERT INTO booking (booking_no,booking_date,booking_category,booking_sub_category,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','2024/02/02','1','2','testtt address','text','7010358965','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:49:44.921Z'
+}
+{
+  message: "PREPARING INSERT INTO booking (booking_no,booking_date,booking_category,booking_sub_category,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','2024/02/02','1','2','testtt address','text','7010358965','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:49:44.929Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:49:44.969Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_date,booking_category,booking_sub_category,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','2024/02/02','1','2','testtt address','text','7010358965','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:50:41.016Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_date,booking_category,booking_sub_category,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','2024/02/02','1','2','testtt address','text','7010358965','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:50:41.023Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:50:41.064Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:52:37.338Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T14:56:12.024Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T15:07:05.210Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T15:08:13.756Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T15:08:37.292Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T15:09:28.695Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T15:11:55.674Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-09T15:12:19.425Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:03:37.581Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:11:34.645Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:13:41.664Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:15:20.571Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:15:50.483Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:16:50.823Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:18:05.101Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:21:28.546Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:22:02.463Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:29:55.459Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:29:55.464Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:29:55.539Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:32:59.467Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:32:59.473Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:33:29.441Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:33:29.446Z'
+}

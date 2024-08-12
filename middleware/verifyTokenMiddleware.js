@@ -1,28 +1,19 @@
-// middleware/verifyTokenMiddleware.js
-require('dotenv').config();
-
 const jwt = require('jsonwebtoken');
 
 
+function verifyToken(req, res, next) {
+const token = req.header('Authorization');
+console.log(token,"tokenss")
+if (!token) return res.status(401).json({ error: 'Access denied' });
+try {
+ const decoded = jwt.verify(token, 'your-secret-key');
+ console.log(decoded.userId,"decoded.userId")
+ console.log(token,"tokentoken")
+ req.userId = decoded.userId;
+ next();
+ } catch (error) {
+ res.status(401).json({ error: 'Invalid token' });
+ }
+ };
 
-const verifyTokenMiddleware = (req, res, next) => {
-  const rawCookie = req.headers.cookie?.split(';').find(cookie => cookie.trim().startsWith('session='));
-  const usertoken = rawCookie ? rawCookie.split('=')[1] : null;
-  const token = process.env.JWT_SECRET;
-
-console.log( token,"authorizationHeader")
-console.log( usertoken,"token")
-  if (!token) {
-    return res.status(403).send({ message: 'No token provided!' });
-  }
-  
-  jwt.verify(usertoken, token, (err, decoded) => {
-    if (err) {
-      return res.status(401).send({ message: 'Unauthorized!',err:err });
-    }
-    req.userId = decoded.id;
-    next();
-  });
-};
-
-module.exports = verifyTokenMiddleware;
+module.exports = verifyToken

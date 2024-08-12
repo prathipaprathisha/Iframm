@@ -17558,3 +17558,3420 @@
   label: undefined,
   timestamp: '2024-08-01T15:04:29.936Z'
 }
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:64:21)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:64:21)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:64:21)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Fri Aug 09 2024 20:13:54 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4132,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 49655808,
+      heapTotal: 13930496,
+      heapUsed: 12983160,
+      external: 2504933,
+      arrayBuffers: 206084
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2263129 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 64,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-09T14:43:54.292Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:64:21)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:64:21)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:64:21)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Fri Aug 09 2024 20:17:45 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 3300,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 57692160,
+      heapTotal: 31232000,
+      heapUsed: 13289680,
+      external: 2505396,
+      arrayBuffers: 206547
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2263360.468 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 64,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-09T14:47:45.757Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:64:21)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:64:21)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:64:21)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Fri Aug 09 2024 20:18:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 26000,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 57417728,
+      heapTotal: 31494144,
+      heapUsed: 13297000,
+      external: 2505396,
+      arrayBuffers: 206547
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2263387.515 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 64,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-09T14:48:12.803Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:64:21)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:64:21)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:64:21)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Fri Aug 09 2024 20:19:44 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2664,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 57712640,
+      heapTotal: 30969856,
+      heapUsed: 13407032,
+      external: 2505396,
+      arrayBuffers: 206547
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2263479.671 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 64,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-09T14:49:44.976Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:64:21)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:64:21)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:64:21)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Fri Aug 09 2024 20:20:41 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2560,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 57843712,
+      heapTotal: 30969856,
+      heapUsed: 13287504,
+      external: 2505409,
+      arrayBuffers: 206560
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2263535.781 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 64,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-09T14:50:41.069Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:64:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:64:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:64:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Fri Aug 09 2024 20:22:37 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 26608,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55758848,
+      heapTotal: 30814208,
+      heapUsed: 11673936,
+      external: 2396987,
+      arrayBuffers: 110268
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2263652.046 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 64,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-09T14:52:37.349Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:65:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:65:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:65:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Fri Aug 09 2024 20:26:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15584,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 45694976,
+      heapTotal: 12988416,
+      heapUsed: 12023472,
+      external: 2397015,
+      arrayBuffers: 110296
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2263866.734 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 65,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-09T14:56:12.037Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:65:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:65:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:65:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Fri Aug 09 2024 20:37:05 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 24572,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 48836608,
+      heapTotal: 13930496,
+      heapUsed: 12440536,
+      external: 2506484,
+      arrayBuffers: 207635
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2264519.921 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 65,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-09T15:07:05.220Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:65:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:65:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:65:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Fri Aug 09 2024 20:38:13 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 24092,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 56045568,
+      heapTotal: 30814208,
+      heapUsed: 11653872,
+      external: 2397015,
+      arrayBuffers: 110296
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2264588.484 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 65,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-09T15:08:13.768Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:65:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:65:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:65:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Fri Aug 09 2024 20:38:37 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6596,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55791616,
+      heapTotal: 30814208,
+      heapUsed: 11647208,
+      external: 2397015,
+      arrayBuffers: 110296
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2264612 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 65,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-09T15:08:37.301Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:65:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:65:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:65:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Fri Aug 09 2024 20:39:28 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 17824,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 48664576,
+      heapTotal: 14192640,
+      heapUsed: 12414592,
+      external: 2506484,
+      arrayBuffers: 207635
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2264663.406 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 65,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-09T15:09:28.708Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:68:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:68:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:68:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Fri Aug 09 2024 20:41:55 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9788,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 56086528,
+      heapTotal: 30814208,
+      heapUsed: 11695312,
+      external: 2397015,
+      arrayBuffers: 110296
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2264810.39 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 68,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-09T15:11:55.686Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:68:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:68:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:68:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Fri Aug 09 2024 20:42:19 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7988,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55435264,
+      heapTotal: 30289920,
+      heapUsed: 11630224,
+      external: 2397015,
+      arrayBuffers: 110296
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2264834.156 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 68,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-09T15:12:19.439Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+      at listenInCluster (node:net:1945:12)
+      at Server.listen (node:net:2037:7)
+      at Function.listen (C:\xampp\htdocs\iframe\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\app.js:37:5)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:37:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:37:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  exception: true,
+  date: 'Sat Aug 10 2024 08:03:54 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 24192,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 53137408,
+      heapTotal: 31195136,
+      heapUsed: 14978656,
+      external: 2400376,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2305729.703 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1897,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1945,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2037,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\app.js',
+      function: null,
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 142,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-10T02:33:54.998Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+      at listenInCluster (node:net:1945:12)
+      at Server.listen (node:net:2037:7)
+      at Function.listen (C:\xampp\htdocs\iframe\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\app.js:37:5)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:37:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:37:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  exception: true,
+  date: 'Sat Aug 10 2024 08:05:34 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 23392,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 54063104,
+      heapTotal: 31195136,
+      heapUsed: 14867200,
+      external: 2400376,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2305829.171 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1897,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1945,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2037,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\app.js',
+      function: null,
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 142,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-10T02:35:34.467Z'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+      at listenInCluster (node:net:1945:12)
+      at Server.listen (node:net:2037:7)
+      at Function.listen (C:\xampp\htdocs\iframe\node_modules\express\lib\application.js:635:24)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\app.js:37:5)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:37:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1897:16)\n' +
+    '    at listenInCluster (node:net:1945:12)\n' +
+    '    at Server.listen (node:net:2037:7)\n' +
+    '    at Function.listen (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js:635:24)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\app.js:37:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)',
+  exception: true,
+  date: 'Sat Aug 10 2024 08:06:26 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16292,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 53673984,
+      heapTotal: 30932992,
+      heapUsed: 15010152,
+      external: 2400376,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2305881.562 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1897,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1945,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 2037,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 635,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\app.js',
+      function: null,
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 142,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-10T02:36:26.860Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:68:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:68:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:68:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Mon Aug 12 2024 21:33:37 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6948,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 48627712,
+      heapTotal: 13930496,
+      heapUsed: 12797456,
+      external: 2506979,
+      arrayBuffers: 208130
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 5435.25 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 68,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-12T16:03:37.589Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:68:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:68:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:68:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Mon Aug 12 2024 21:41:34 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8980,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55447552,
+      heapTotal: 30552064,
+      heapUsed: 11633720,
+      external: 2397015,
+      arrayBuffers: 110296
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 5912.312 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 68,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-12T16:11:34.654Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:68:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:68:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:68:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Mon Aug 12 2024 21:43:41 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 12076,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55513088,
+      heapTotal: 30289920,
+      heapUsed: 11642904,
+      external: 2397029,
+      arrayBuffers: 110310
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6039.328 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 68,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-12T16:13:41.674Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:69:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:69:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:69:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Mon Aug 12 2024 21:45:20 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 17160,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 45740032,
+      heapTotal: 12988416,
+      heapUsed: 12023088,
+      external: 2397029,
+      arrayBuffers: 110310
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6138.234 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 69,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-12T16:15:20.579Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:69:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:69:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:69:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Mon Aug 12 2024 21:45:50 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 1120,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55791616,
+      heapTotal: 30814208,
+      heapUsed: 11654776,
+      external: 2397029,
+      arrayBuffers: 110310
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6168.14 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 69,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-12T16:15:50.493Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:71:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:71:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:71:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Mon Aug 12 2024 21:46:50 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11640,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 45674496,
+      heapTotal: 12988416,
+      heapUsed: 12022944,
+      external: 2397029,
+      arrayBuffers: 110310
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6228.484 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 71,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-12T16:16:50.832Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:72:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:72:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:72:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Mon Aug 12 2024 21:48:05 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16828,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55914496,
+      heapTotal: 31076352,
+      heapUsed: 11641112,
+      external: 2397029,
+      arrayBuffers: 110310
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6302.765 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-12T16:18:05.111Z'
+}
+{
+  error: TypeError: console.loh is not a function
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:20:17)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15
+      at Function.process_params (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:346:12),
+  level: 'error',
+  message: 'uncaughtException: console.loh is not a function\n' +
+    'TypeError: console.loh is not a function\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:20:17)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  stack: 'TypeError: console.loh is not a function\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:20:17)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  exception: true,
+  date: 'Mon Aug 12 2024 21:50:33 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 2436,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 45735936,
+      heapTotal: 12988416,
+      heapUsed: 12003560,
+      external: 2397029,
+      arrayBuffers: 110310
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6450.984 },
+  trace: [
+    {
+      column: 17,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 346,
+      method: 'process_params',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-12T16:20:33.330Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:73:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:73:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:73:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Mon Aug 12 2024 21:51:28 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11344,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55558144,
+      heapTotal: 30552064,
+      heapUsed: 11643856,
+      external: 2397029,
+      arrayBuffers: 110310
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6506.203 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-12T16:21:28.555Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:74:21)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at verifyToken (C:\xampp\htdocs\iframe\middleware\verifyTokenMiddleware.js:13:2)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:149:13)
+      at Route.dispatch (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:119:3)
+      at Layer.handle [as handle_request] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\layer.js:95:5)
+      at C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:284:15,
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:74:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:74:21)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at verifyToken (C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js:13:2)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:284:15',
+  exception: true,
+  date: 'Mon Aug 12 2024 21:52:02 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 16504,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55701504,
+      heapTotal: 30552064,
+      heapUsed: 11650264,
+      external: 2397029,
+      arrayBuffers: 110310
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6540.125 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 74,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\xampp\\htdocs\\iframe\\middleware\\verifyTokenMiddleware.js',
+      function: 'verifyToken',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 149,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 119,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-12T16:22:02.471Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at addBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:85:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:85:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at addBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:85:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Mon Aug 12 2024 21:59:55 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 17380,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 49213440,
+      heapTotal: 14454784,
+      heapUsed: 12647848,
+      external: 2504940,
+      arrayBuffers: 206091
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 7013.203 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'addBooking',
+      line: 85,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-12T16:29:55.544Z'
+}

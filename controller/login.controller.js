@@ -94,13 +94,9 @@ async getLogin(req, res) {
     delete user.password;
 
     // Successful login
-    const jwtToken = jwt.sign(
-      { username },  
-      process.env.JWT_SECRET_KEY, 
-      { expiresIn: '2h' }
-    );
-console.log(process.env.JWT_SECRET_KEY,"process.env.JWT_SECRET_KEY")
-console.log(jwtToken,"jwtToken")
+    const jwtToken = jwt.sign({ userId: user.admin_id  }, 'your-secret-key', {
+      expiresIn: '1h',
+      });
     // Store the token in session
     res.set('Set-Cookie', `session=${jwtToken}; HttpOnly; Max-Age=${2 * 60 * 60}; Path=/;`);
 

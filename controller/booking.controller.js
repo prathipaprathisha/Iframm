@@ -16,54 +16,75 @@ function validateMobileNumber(mobile) {
 }
 
 const BookingController = {
-    async addBooking(req,res) {
+    async addBooking(req, res) {
+        console.log("entry");
         try {
-           let {
-    
+            console.log("entryss");
+
+            let {
                 booking_no,
                 booking_date,
-                booking_category,
-                booking_sub_category,
+                booking_category_id,
+                booking_sub_category_id,
+                booking_venue_location,
+                booking_venue_name,
+                booking_mobile_no,
+                booking_email_id,
+                booking_price,
+                booking_service_id,
+                // Add booking_name if it exists in your request body
+                booking_name
+            } = req.body;
+
+            // Validate email
+            if (!validateEmail(booking_email_id)) {
+                return new Response(res, StatusCodes.BAD_REQUEST)._ErrorMessage(
+                    "Please provide a valid email address",
+                    StatusCodes.BAD_REQUEST
+                );
+            }
+
+            // Validate mobile number
+            if (!validateMobileNumber(booking_mobile_no)) {
+                return new Response(res, StatusCodes.BAD_REQUEST)._ErrorMessage(
+                    "Please provide a valid mobile number",
+                    StatusCodes.BAD_REQUEST
+                );
+            }
+
+            // Prepare booking data
+            var bookingData = {
+                booking_no,
+                booking_name,
+                booking_date,
+                booking_category_id,
+                booking_sub_category_id,
                 booking_venue_location,
                 booking_venue_name,
                 booking_mobile_no,
                 booking_email_id,
                 booking_price,
                 booking_service_id
-              }=req.body;
+            };
 
-                if(!validateEmail(booking_email_id)) {
-                    return new Response(res, StatusCodes.BAD_REQUEST, "Please provide a valid email address");
+            // If booking data is valid, create a booking
+            if (bookingData) {
+                let booking = await BookingModule.addBooking(bookingData);
 
-                }
-                if(!validateMobileNumber(booking_mobile_no)) {
-                    return new Response(res, StatusCodes.BAD_REQUEST, "Please provide valid mobile mobile number");
-
-                }
-                var bookingData= {
-                    booking_no,
-                    booking_date,
-                    booking_category,
-                    booking_sub_category,
-                    booking_venue_location,
-                    booking_venue_name,
-                    booking_mobile_no,
-                    booking_email_id,
-                    booking_price,
-                    booking_service_id
-                }
-                if(bookingData) {
-                    let booking = await BookingModule.addBooking(bookingData);
-                    if(booking){
-                        return new Response(res,StatusCodes.OK,"Booking Created Sucessfully !")
-                     }
-                    }
-                } catch(err) {
-                    new SpErrorHandler(err);
-                    return new Response(res, StatusCodes.INTERNAL_SERVER_ERROR, "An error occurred while creating the booking");
-
+                if (booking) {
+                    return new Response(res, StatusCodes.OK)._SuccessResponse(
+                        "Booking Created Successfully!"
+                    );
                 }
             }
+        } catch (err) {
+            // Handle error using SpErrorHandler
+            new SpErrorHandler(err);
+            return new Response(res, StatusCodes.INTERNAL_SERVER_ERROR)._ErrorMessage(
+                "Internal server error"
+            );
+        }
+    }
 };
+
 module.exports = BookingController;
- 

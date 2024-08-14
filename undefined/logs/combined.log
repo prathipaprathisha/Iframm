@@ -1257,3 +1257,15 @@
   label: undefined,
   timestamp: '2024-08-12T16:33:29.446Z'
 }
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:44:48.103Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-12T16:44:48.109Z'
+}

@@ -10,8 +10,10 @@ const verifyTokenMiddleware = require('../middleware/verifyTokenMiddleware');
 
 
 router.post('/booking_add',verifyTokenMiddleware, bookingController.addBooking);
-
-
+router.put('/booking_edit/:id', verifyTokenMiddleware, bookingController.editBooking);
+router.put('/booking_update/:id', verifyTokenMiddleware, bookingController.updateBooking);
+router.get('/booking_view/:id', verifyTokenMiddleware, bookingController.viewBooking);
+router.get('/booking_list', verifyTokenMiddleware, bookingController.listBookings);
 
 
 

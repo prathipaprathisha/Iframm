@@ -15,6 +15,7 @@ function validateMobileNumber(mobile) {
     return regex.test(mobile);
 }
 
+
 const BookingController = {
     // Add Booking
     async addBooking(req, res) {
@@ -46,7 +47,10 @@ const BookingController = {
                     StatusCodes.BAD_REQUEST
                 );
             }
-
+            const maxId = await BookingModule.getMaxBookingId();
+            const newIdNumber = maxId ? parseInt(maxId, 10) + 1 : 1;
+            formattedId = newIdNumber.toString().padStart(3, '0');
+             booking_no =   `FS-${formattedId}`;
             var bookingData = {
                 booking_no,
                 booking_name,
@@ -79,14 +83,16 @@ const BookingController = {
             const bookingId = req.params.id;
             let booking = await BookingModule.getBookingById(bookingId);
             
-            if (!booking) {
+            console.log(booking[0],"get edit")
+
+           
+            if (!booking[0] || Object.keys(booking[0]).length === 0) {
                 return new Response(res, StatusCodes.NOT_FOUND)._ErrorMessage(
-                    "Booking not found", StatusCodes.NOT_FOUND
+                    "Booking data not found", StatusCodes.NOT_FOUND
                 );
             }
-
             return new Response(res, StatusCodes.OK)._SuccessResponse(
-                "Booking fetched successfully", booking
+                "Booking fetched successfully", booking[0]
             );
 
         } catch (err) {
@@ -99,10 +105,10 @@ const BookingController = {
     // Update Booking
     async updateBooking(req, res) {
         try {
-            let bookingId = req.params.id;
             let updateData = req.body;
+            const bookingId = req.params.id;
 
-            // Optionally validate email and mobile number if included in update
+                        // Optionally validate email and mobile number if included in update
             if (updateData.booking_email_id && !validateEmail(updateData.booking_email_id)) {
                 return new Response(res, StatusCodes.BAD_REQUEST)._ErrorMessage(
                     "Please provide a valid email address",
@@ -140,15 +146,17 @@ const BookingController = {
         try {
             let bookingId = req.params.id;
             let booking = await BookingModule.getBookingById(bookingId);
-            if (booking) {
-                return new Response(res, StatusCodes.OK)._SuccessResponse(
-                    "Booking retrieved successfully!",
-                    booking
+                if (!booking[0] || Object.keys(booking[0]).length === 0) {
+
+                return new Response(res, StatusCodes.NOT_FOUND)._ErrorMessage(
+                    "Booking data not found",
+                    StatusCodes.NOT_FOUND
                 );
             } else {
-                return new Response(res, StatusCodes.NOT_FOUND)._ErrorMessage(
-                    "Booking not found",
-                    StatusCodes.NOT_FOUND
+                
+                return new Response(res, StatusCodes.OK)._SuccessResponse(
+                    "Booking retrieved successfully!",
+                    booking[0]
                 );
             }
         } catch (err) {
@@ -165,7 +173,37 @@ const BookingController = {
             let bookings = await BookingModule.getAllBookings();
             return new Response(res, StatusCodes.OK)._SuccessResponse(
                 "Bookings retrieved successfully!",
-                bookings
+                bookings[0]
+            );
+        } catch (err) {
+            new SpErrorHandler(err);
+            return new Response(res, StatusCodes.INTERNAL_SERVER_ERROR)._ErrorMessage(
+                "Internal server error"
+            );
+        }
+    },
+    // List Categories
+    async listCategories(req, res) {
+        try {
+            let Categories = await BookingModule.getAllCategory();
+            return new Response(res, StatusCodes.OK)._SuccessResponse(
+                "Categories retrieved successfully!",
+                Categories[0]
+            );
+        } catch (err) {
+            new SpErrorHandler(err);
+            return new Response(res, StatusCodes.INTERNAL_SERVER_ERROR)._ErrorMessage(
+                "Internal server error"
+            );
+        }
+    },
+    // List Sub Categories
+    async listSubCategories(req, res) {
+        try {
+            let Categories = await BookingModule.getAllSubCategory();
+            return new Response(res, StatusCodes.OK)._SuccessResponse(
+                "Sub Categories retrieved successfully!",
+                Categories[0]
             );
         } catch (err) {
             new SpErrorHandler(err);

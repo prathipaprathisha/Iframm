@@ -14,6 +14,8 @@ router.put('/booking_edit/:id', verifyTokenMiddleware, bookingController.editBoo
 router.put('/booking_update/:id', verifyTokenMiddleware, bookingController.updateBooking);
 router.get('/booking_view/:id', verifyTokenMiddleware, bookingController.viewBooking);
 router.get('/booking_list', verifyTokenMiddleware, bookingController.listBookings);
+router.get('/category_list', verifyTokenMiddleware, bookingController.listCategories);
+router.get('/sub_category_list', verifyTokenMiddleware, bookingController.listSubCategories);
 
 
 

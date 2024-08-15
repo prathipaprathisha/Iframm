@@ -1269,3 +1269,195 @@
   label: undefined,
   timestamp: '2024-08-12T16:44:48.109Z'
 }
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-14T14:33:31.939Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-14T14:33:31.945Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T06:12:36.941Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T06:12:36.949Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T06:41:07.046Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T06:41:28.715Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T06:42:23.299Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T06:43:34.449Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T06:49:07.191Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T08:58:44.760Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('tesdsds','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T08:58:44.765Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T08:59:04.532Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:12:48.106Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:15:57.776Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:18:03.739Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:22:19.274Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:22:32.943Z'
+}
+{
+  message: "PREPARING UPDATE fs_booking SET 0 = '1' null",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:24:27.174Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:24:27.222Z'
+}
+{
+  message: "PREPARING UPDATE fs_booking SET 0 = '1' null",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:24:54.831Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:24:54.881Z'
+}
+{
+  message: "PREPARING UPDATE fs_booking SET booking_no = 'tesdsds',booking_email_id = 'kk@gmail.com',booking_mobile_no = '9876543210',booking_date = '2024-08-12T16:11:34.645Z',booking_category_id = '1',booking_sub_category_id = '2',booking_venue_location = 'testtt address',booking_venue_name = 'text',booking_price = '150000',booking_service_id = '001',booking_name = 'tttt',booking_id = '1' WHERE booking_id = '1' ",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:29:05.783Z'
+}
+{
+  message: "PREPARING UPDATE fs_booking SET booking_no = 'tesdsds',booking_email_id = 'prathipaupdate@gmail.com',booking_mobile_no = '9876543210',booking_date = '2024-08-12T16:11:34.645Z',booking_category_id = '1',booking_sub_category_id = '2',booking_venue_location = 'testtt address',booking_venue_name = 'text',booking_price = '150000',booking_service_id = '001',booking_name = 'tttt',booking_id = '1' WHERE booking_id = '1' ",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:30:45.365Z'
+}
+{
+  message: "PREPARING UPDATE fs_booking SET booking_no = 'tesdsds',booking_email_id = 'prathipaupdate@gmail.com',booking_mobile_no = '9876543210',booking_date = '2024-08-12T16:11:34.645Z',booking_category_id = '1',booking_sub_category_id = '2',booking_venue_location = 'testtt address',booking_venue_name = 'text',booking_price = '150000',booking_service_id = '001',booking_name = 'tttt',booking_id = '1' WHERE booking_id = '1' ",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:31:56.456Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:36:00.980Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:36:18.348Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:45:33.696Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('008','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:48:09.154Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('008','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:48:09.159Z'
+}
+{
+  message: null,
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:48:53.400Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('FS-009','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:50:48.539Z'
+}
+{
+  message: "PREPARING INSERT INTO fs_booking (booking_no,booking_name,booking_date,booking_category_id,booking_sub_category_id,booking_venue_location,booking_venue_name,booking_mobile_no,booking_email_id,booking_price,booking_service_id) VALUES ('FS-009','tttt','2024-08-12T16:11:34.645Z','1','2','testtt address','text','9876543210','kk@gmail.com','150000','001')",
+  level: 'info',
+  label: undefined,
+  timestamp: '2024-08-15T09:50:48.546Z'
+}

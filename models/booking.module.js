@@ -40,6 +40,12 @@ async getAllBookings(){
         const [rows] = await database.promise().query(query);
         return rows[0].maxId;
    
+},
+
+async  findByIdAndDelete(id) {
+   const query = `DELETE FROM fs_booking WHERE booking_id = ?`;
+   return database.promise().query(query, [id]);
+       
 }
 }
 module.exports = BookingModule;

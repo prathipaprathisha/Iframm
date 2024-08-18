@@ -28454,3 +28454,3889 @@
   label: undefined,
   timestamp: '2024-08-15T09:50:45.373Z'
 }
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 17:52:10 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 976,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52633600,
+      heapTotal: 30932992,
+      heapUsed: 14604688,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 510551.031 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:22:10.008Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 17:52:12 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 17428,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52649984,
+      heapTotal: 31195136,
+      heapUsed: 14594184,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 510553.906 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:22:12.886Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 17:52:38 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4296,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52633600,
+      heapTotal: 31195136,
+      heapUsed: 14724584,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 510579.359 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:22:38.341Z'
+}
+{
+  error: C:\xampp\htdocs\iframe\models\booking.module.js:44
+  async findByIdAndDelete(){
+  ^^^^^
+  
+  SyntaxError: Unexpected token 'async'
+      at internalCompileFunction (node:internal/vm:128:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1279:20)
+      at Module._compile (node:internal/modules/cjs/loader:1331:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\controller\booking.controller.js:2:23)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token 'async'\n" +
+    'C:\\xampp\\htdocs\\iframe\\models\\booking.module.js:44\n' +
+    'async findByIdAndDelete(){\n' +
+    '^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'async'\n" +
+    '    at internalCompileFunction (node:internal/vm:128:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1279:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1331:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)',
+  stack: 'C:\\xampp\\htdocs\\iframe\\models\\booking.module.js:44\n' +
+    'async findByIdAndDelete(){\n' +
+    '^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'async'\n" +
+    '    at internalCompileFunction (node:internal/vm:128:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1279:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1331:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)',
+  exception: true,
+  date: 'Sun Aug 18 2024 17:55:53 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 12876,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52535296,
+      heapTotal: 30932992,
+      heapUsed: 14709288,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 510774.968 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 128,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1279,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1331,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:25:53.939Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 17:55:56 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 14496,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52400128,
+      heapTotal: 30932992,
+      heapUsed: 14602736,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 510777.406 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:25:56.375Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:05:32 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 20904,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52875264,
+      heapTotal: 30932992,
+      heapUsed: 14694040,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511354.015 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:35:32.989Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:05:53 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4648,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52883456,
+      heapTotal: 30932992,
+      heapUsed: 14684744,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511374.968 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:35:53.949Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:05:59 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7524,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52760576,
+      heapTotal: 30932992,
+      heapUsed: 14617304,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511380.203 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:35:59.171Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:06:02 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 22380,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52330496,
+      heapTotal: 30932992,
+      heapUsed: 14749624,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511383.25 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:36:02.222Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:06:10 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 10516,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52891648,
+      heapTotal: 31195136,
+      heapUsed: 14704808,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511391.14 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:36:10.117Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:06:15 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 21892,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52813824,
+      heapTotal: 30932992,
+      heapUsed: 14574080,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511396.062 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:36:15.031Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:06:25 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 17444,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52846592,
+      heapTotal: 31195136,
+      heapUsed: 14647432,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511406.14 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:36:25.109Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:06:30 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8596,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52879360,
+      heapTotal: 30932992,
+      heapUsed: 14551744,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511411.375 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:36:30.356Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:06:41 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 3900,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52895744,
+      heapTotal: 30932992,
+      heapUsed: 14678432,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511422.718 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:36:41.695Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:09:22 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 1980,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52854784,
+      heapTotal: 30670848,
+      heapUsed: 14756760,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511583.359 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:39:22.333Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:09:46 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13596,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52461568,
+      heapTotal: 30932992,
+      heapUsed: 14635416,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511607.046 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:39:46.021Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:10:35 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15216,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52645888,
+      heapTotal: 30932992,
+      heapUsed: 14772352,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511656.671 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:40:35.650Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:10:47 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15428,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52715520,
+      heapTotal: 30932992,
+      heapUsed: 14569208,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511668.921 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:40:47.900Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:10:58 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15224,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52760576,
+      heapTotal: 30932992,
+      heapUsed: 14801816,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511680 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:40:58.970Z'
+}
+{
+  error: C:\xampp\htdocs\iframe\models\booking.module.js:45
+  async function findByIdAndDelete(id) {
+                 ^^^^^^^^^^^^^^^^^
+  
+  SyntaxError: Unexpected identifier 'findByIdAndDelete'
+      at internalCompileFunction (node:internal/vm:128:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1279:20)
+      at Module._compile (node:internal/modules/cjs/loader:1331:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\controller\booking.controller.js:2:23)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected identifier 'findByIdAndDelete'\n" +
+    'C:\\xampp\\htdocs\\iframe\\models\\booking.module.js:45\n' +
+    'async function findByIdAndDelete(id) {\n' +
+    '               ^^^^^^^^^^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'findByIdAndDelete'\n" +
+    '    at internalCompileFunction (node:internal/vm:128:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1279:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1331:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)',
+  stack: 'C:\\xampp\\htdocs\\iframe\\models\\booking.module.js:45\n' +
+    'async function findByIdAndDelete(id) {\n' +
+    '               ^^^^^^^^^^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'findByIdAndDelete'\n" +
+    '    at internalCompileFunction (node:internal/vm:128:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1279:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1331:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:12:05 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6136,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52850688,
+      heapTotal: 30932992,
+      heapUsed: 14605904,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511746.75 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 128,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1279,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1331,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:42:05.729Z'
+}
+{
+  error: C:\xampp\htdocs\iframe\models\booking.module.js:45
+  async function findByIdAndDelete(id) {
+                 ^^^^^^^^^^^^^^^^^
+  
+  SyntaxError: Unexpected identifier 'findByIdAndDelete'
+      at internalCompileFunction (node:internal/vm:128:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1279:20)
+      at Module._compile (node:internal/modules/cjs/loader:1331:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\controller\booking.controller.js:2:23)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected identifier 'findByIdAndDelete'\n" +
+    'C:\\xampp\\htdocs\\iframe\\models\\booking.module.js:45\n' +
+    'async function findByIdAndDelete(id) {\n' +
+    '               ^^^^^^^^^^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'findByIdAndDelete'\n" +
+    '    at internalCompileFunction (node:internal/vm:128:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1279:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1331:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)',
+  stack: 'C:\\xampp\\htdocs\\iframe\\models\\booking.module.js:45\n' +
+    'async function findByIdAndDelete(id) {\n' +
+    '               ^^^^^^^^^^^^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected identifier 'findByIdAndDelete'\n" +
+    '    at internalCompileFunction (node:internal/vm:128:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1279:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1331:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:12:05 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 8744,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52727808,
+      heapTotal: 31195136,
+      heapUsed: 14338496,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511746.75 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 128,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1279,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1331,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:42:05.729Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:12:15 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 13420,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52731904,
+      heapTotal: 30932992,
+      heapUsed: 14661296,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511756.937 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:42:15.905Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:12:15 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6212,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52572160,
+      heapTotal: 30932992,
+      heapUsed: 14551976,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511756.937 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:42:15.905Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:12:20 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 19048,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52633600,
+      heapTotal: 30932992,
+      heapUsed: 14823688,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511761.078 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:42:20.048Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:12:20 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 19332,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52572160,
+      heapTotal: 30932992,
+      heapUsed: 14884472,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511761.078 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:42:20.052Z'
+}
+{
+  error: Error: Route.delete() requires a callback function but got a [object Undefined]
+      at Route.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\route.js:216:15)
+      at proto.<computed> [as delete] (C:\xampp\htdocs\iframe\node_modules\express\lib\router\index.js:521:19)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\booking.routes.js:19:14)
+      at Module._compile (node:internal/modules/cjs/loader:1368:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)
+      at Module.load (node:internal/modules/cjs/loader:1205:32)
+      at Module._load (node:internal/modules/cjs/loader:1021:12)
+      at Module.require (node:internal/modules/cjs/loader:1230:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\xampp\htdocs\iframe\routes\index.routes.js:7:21),
+  level: 'error',
+  message: 'uncaughtException: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  stack: 'Error: Route.delete() requires a callback function but got a [object Undefined]\n' +
+    '    at Route.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js:216:15)\n' +
+    '    at proto.<computed> [as delete] (C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js:521:19)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js:19:14)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1368:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1426:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1205:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1021:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1230:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js:7:21)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:12:31 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 21092,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 52916224,
+      heapTotal: 31195136,
+      heapUsed: 14691928,
+      external: 2381199,
+      arrayBuffers: 109839
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 511772.031 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.<computed> [as delete]',
+      line: 216,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\xampp\\htdocs\\iframe\\node_modules\\express\\lib\\router\\index.js',
+      function: 'proto.<computed> [as delete]',
+      line: 521,
+      method: '<computed> [as delete]',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\booking.routes.js',
+      function: null,
+      line: 19,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1368,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1426,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1205,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1021,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1230,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\xampp\\htdocs\\iframe\\routes\\index.routes.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:42:31.007Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at deleteBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:235:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at deleteBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:235:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at deleteBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:235:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:16:40 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 18304,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 47149056,
+      heapTotal: 15503360,
+      heapUsed: 13066832,
+      external: 2505975,
+      arrayBuffers: 207126
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 512021.187 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'deleteBooking',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:46:40.167Z'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'message')
+      at new SpErrorHandler (C:\xampp\htdocs\iframe\utils\error-handler.js:101:33)
+      at deleteBooking (C:\xampp\htdocs\iframe\controller\booking.controller.js:235:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'message')\n" +
+    "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at deleteBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:235:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'message')\n" +
+    '    at new SpErrorHandler (C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js:101:33)\n' +
+    '    at deleteBooking (C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js:235:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  exception: true,
+  date: 'Sun Aug 18 2024 18:17:42 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6728,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\xampp\\htdocs\\iframe',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v21.7.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\xampp\\htdocs\\iframe\\app.js'
+    ],
+    memoryUsage: {
+      rss: 55001088,
+      heapTotal: 30969856,
+      heapUsed: 12749936,
+      external: 2504934,
+      arrayBuffers: 206085
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 512083.125 },
+  trace: [
+    {
+      column: 33,
+      file: 'C:\\xampp\\htdocs\\iframe\\utils\\error-handler.js',
+      function: 'new SpErrorHandler',
+      line: 101,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\xampp\\htdocs\\iframe\\controller\\booking.controller.js',
+      function: 'deleteBooking',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 95,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  label: undefined,
+  timestamp: '2024-08-18T12:47:42.098Z'
+}

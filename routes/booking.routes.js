@@ -16,6 +16,7 @@ router.get('/booking_view/:id', verifyTokenMiddleware, bookingController.viewBoo
 router.get('/booking_list', verifyTokenMiddleware, bookingController.listBookings);
 router.get('/category_list', verifyTokenMiddleware, bookingController.listCategories);
 router.get('/sub_category_list', verifyTokenMiddleware, bookingController.listSubCategories);
+router.delete('/booking_delete/:id', verifyTokenMiddleware,bookingController.deleteBooking);
 
 
 

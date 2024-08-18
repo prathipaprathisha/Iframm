@@ -211,7 +211,33 @@ const BookingController = {
                 "Internal server error"
             );
         }
-    }
+    },
+    //DELETE Booking by ID
+    async deleteBooking(req, res) {
+        try {
+            let bookingId = req.params.id;
+            const result = await BookingModule.findByIdAndDelete(bookingId);
+    
+                if (!result[0] || Object.keys(result[0]).length === 0) {
+    
+                return new Response(res, StatusCodes.NOT_FOUND)._ErrorMessage(
+                    "Booking data not found",
+                    StatusCodes.NOT_FOUND
+                );
+            } else {
+                
+                return new Response(res, StatusCodes.OK)._SuccessResponse(
+                    "Booking deleted successfully!",
+                    result[0]
+                );
+            }
+        } catch (err) {
+            new SpErrorHandler(err);
+            return new Response(res, StatusCodes.INTERNAL_SERVER_ERROR)._ErrorMessage(
+                "Internal server error"
+            );
+        }
+    },
 };
 
 module.exports = BookingController;
